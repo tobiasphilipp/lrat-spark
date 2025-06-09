@@ -1,0 +1,4 @@
+pragma SPARK_Mode (On);
+pragma Overflow_Mode (General => Strict, Assertions => Eliminated);
+pragma Profile (Ravenscar);
+pragma Partition_Elaboration_Policy (Sequential);
